@@ -1,3 +1,4 @@
+import os
 import random
 import socket
 import sys
@@ -5,8 +6,6 @@ import sys
 from PyQt5 import uic
 from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import *
-
-import os
 
 
 class Window(QDialog):
