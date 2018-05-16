@@ -1,5 +1,6 @@
 import sys
 
+
 # 백준 온라인 192번 문제(연속합)
 def check_list(data, size):
     if len(data) != size:
