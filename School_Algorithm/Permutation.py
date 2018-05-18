@@ -1,6 +1,3 @@
-import math
-
-
 def permutations(iterable, r=None):
     pool = tuple(iterable)
     n = len(pool)
@@ -40,5 +37,8 @@ if __name__ == '__main__':
     my_permutation = list(set(my_permutation))
     my_permutation.sort()
 
-    for item in my_permutation[c - 1]:
-        print(item, end=" ")
+    for data in my_permutation[c - 1]:
+        if data == 'a':
+            print('-', end=' ')
+        elif data == 'b':
+            print('o', end=' ')
